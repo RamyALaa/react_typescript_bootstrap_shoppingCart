@@ -9,7 +9,6 @@ import Store from './pages/Store'
 
 function App() {
 
-
   return (
     <ShoppingCartProvider>
     <Navbar/>
