@@ -6,10 +6,10 @@ type ShoppingCartProvider = {
     children : ReactNode
 }
 
+
 type ShoppingCartContext = {
     openCart : () => void
     closeCart : () => void
-    
     getItemQuantity : (id : number) => number
     increaseCartQuantity: ( id: number ) => void
     decreaseCartQuantity: ( id: number ) => void
